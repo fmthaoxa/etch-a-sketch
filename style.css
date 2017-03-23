@@ -1,0 +1,28 @@
+#canvas {
+  width:600px;
+  height:600px;
+  border:1px solid black;
+  margin: 100px auto;
+}
+
+#menubar {
+  width: 150px;
+  height: auto;
+  border: 1px dotted black;
+  margin-right: auto;
+  position: fixed;
+  margin-top: auto;
+}
+#body {
+  padding: 100px;
+  padding-left: 100px;
+  border: 1px solid;
+}
+ul {
+  list-style: none;
+  display: block;
+  margin-left: -20px;
+}
+#reset {
+  margin-bottom: 10px;
+}
