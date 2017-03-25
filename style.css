@@ -1,7 +1,7 @@
 #canvas {
   width:600px;
   height:600px;
-  border:1px solid black;
+  border:2px solid black;
   margin: 100px auto;
 }
 
@@ -25,4 +25,14 @@ ul {
 }
 #reset {
   margin-bottom: 10px;
+}
+#pixel {
+  float: left;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background-color: green
+}
+html {
+  display: block;
 }
