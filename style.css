@@ -1,8 +1,12 @@
 #canvas {
-  width:600px;
-  height:430px;
-  border:2px solid black;
+  width: 600px;
+  height: 600px;
+  border-top: 150px solid #b92727;
   margin: 100px auto;
+  border-radius: 92px;
+  border-bottom: 150px solid #b92727;
+  border-left: 170px solid #b92727;
+  border-right: 170px solid #b92727;
 }
 
 #menubar {
@@ -12,6 +16,7 @@
   margin-right: auto;
   position: fixed;
   margin-top: auto;
+  background-color: #fbe7c4;
 }
 #body {
   padding: 100px;
@@ -31,5 +36,5 @@ ul {
   margin: 0;
   padding: 0;
   border: 0;
-  background-color: green
+  opacity: 0;
 }
