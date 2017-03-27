@@ -1,12 +1,9 @@
 #canvas {
   width: 600px;
   height: 600px;
-  border-top: 150px solid #b92727;
-  margin: 100px auto;
-  border-radius: 92px;
-  border-bottom: 150px solid #b92727;
-  border-left: 170px solid #b92727;
-  border-right: 170px solid #b92727;
+  border: 1px solid #b92727;
+  display: inline-block;
+  vertical-align: middle;
 }
 
 #menubar {
@@ -37,4 +34,31 @@ ul {
   padding: 0;
   border: 0;
   opacity: 0;
+}
+#leftKnob {
+  width: 120px;
+  height: 800px;
+  background-color: #b92727;
+  margin-top: 100px;
+  border-top-left-radius: 45px;
+  border-bottom-left-radius: 45px;
+}
+#rightKnob {
+  width: 120px;
+  height: 800px;
+  background-color: #b92727;
+  margin-top: 100px;
+  border-top-right-radius: 45px;
+  border-bottom-right-radius: 45px;
+}
+#mid {
+  width: 600px;
+  height: 600px;
+  margin-top: 100px;
+  border-top: 100px solid #b92727;
+  border-bottom: 100px solid #b92727;
+}
+#container {
+  display: flex;
+  justify-content: center;
 }
