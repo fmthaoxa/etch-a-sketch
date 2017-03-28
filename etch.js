@@ -13,6 +13,7 @@ function drawCanvas(grid) {
 
 
 $(document).ready(function() {
+  $("span").text('Hello and Welcome to my etch-a-sketch!!')
   $('#reset').on('click', function() {
       $('#canvas').empty()
       var num = parseInt(prompt("Enter a number"));
@@ -50,8 +51,6 @@ $(document).ready(function() {
 
       }
     });
-
-
 
 
 

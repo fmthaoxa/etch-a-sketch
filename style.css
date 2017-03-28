@@ -7,9 +7,9 @@
 }
 
 #menubar {
-  width: 150px;
+  width: 182px;
   height: auto;
-  border: 1px dotted black;
+  border: 2px solid black;
   margin-right: auto;
   position: fixed;
   margin-top: auto;
@@ -42,6 +42,7 @@ ul {
   margin-top: 100px;
   border-top-left-radius: 45px;
   border-bottom-left-radius: 45px;
+  position: relative;
 }
 #rightKnob {
   width: 120px;
@@ -50,6 +51,7 @@ ul {
   margin-top: 100px;
   border-top-right-radius: 45px;
   border-bottom-right-radius: 45px;
+  position: relative;
 }
 #mid {
   width: 600px;
@@ -57,8 +59,26 @@ ul {
   margin-top: 100px;
   border-top: 100px solid #b92727;
   border-bottom: 100px solid #b92727;
+  position: relative;
 }
 #container {
   display: flex;
   justify-content: center;
+}
+#lKnob, #rKnob {
+  width: 100px;
+  height: 100px;
+  background-color: #e4d2a5;
+  border-radius: 100%;
+  bottom: 0;
+  position: absolute;
+  left: 8%;
+  margin-bottom: 14px;
+}
+#arrow {
+  margin-top: 0px;
+  text-align: center;
+}
+span {
+  font-size: 74px;
 }
